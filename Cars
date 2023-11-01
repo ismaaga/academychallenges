@@ -1,0 +1,8 @@
+const cars = ['toyota', 'honda', 'mazda', 'mitsubishi', 'tesla', 'lexus'];
+console.log(cars[0]); // logs 'toyota'
+console.log(cars[cars.length - 1]); // logs 'lexus'
+cars.push('mercedes-benz');
+console.log(cars[cars.length - 1]); // logs 'mercedes-benz'
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i]);
+}
